@@ -1,3 +1,5 @@
+<!-- 消してもいい？ -->
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;

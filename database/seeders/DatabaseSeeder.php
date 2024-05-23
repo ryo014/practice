@@ -14,6 +14,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        // php artisan migrate:fresh --seedで下記の処理を実行↓
+        $this->call([]);
+        $this->call(UserSeeder::class);
+        $this->call(MenuSeeder::class);
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([
